@@ -1,0 +1,26 @@
+.header {
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 0.5rem 2rem;
+  background-color: #fe6543;
+  color: white;
+  z-index: 1000;
+  margin: auto;
+
+  .content {
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // justify-content: space-between;
+    z-index: 1;
+
+    .title {
+      font-size: 32px;
+    }
+  }
+}

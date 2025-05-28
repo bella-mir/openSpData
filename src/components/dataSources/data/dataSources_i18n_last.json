@@ -1,0 +1,2934 @@
+[
+  {
+    "name": "BBBike Extracts",
+    "url": "https://extract.bbbike.org/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Сервис выбора областей из Planet.osm с экспортом OSM-данных (Shapefile, Garmin, OsmAnd и др.)",
+      "en": "Planet.OSM selection service with OSM export (Shapefile, Garmin, Osmand, etc.)"
+    },
+    "types": [
+      {
+        "ru": "вектор (OSM, Shapefile, GeoJSON, Garmin)",
+        "en": "Vector (OSM, Shapefile, Geojson, Garmin)"
+      }
+    ],
+    "category": {
+      "ru": "OpenStreetMap и производные",
+      "en": "Openstreetmap and derivatives"
+    }
+  },
+  {
+    "name": "Geofabrik",
+    "url": "https://download.geofabrik.de/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное (регионы/страны)",
+      "en": "Global (regions/countries)"
+    },
+    "description": {
+      "ru": "Регулярные дампы данных OSM по регионам, доступные в PBF, Shapefile, GeoJSON и др.",
+      "en": "Regular OSM data to regions available in PBF, Shapefile, Geojson, etc."
+    },
+    "types": [
+      {
+        "ru": "вектор (PBF)",
+        "en": "Vector (PBF)"
+      },
+      {
+        "ru": "вектор (Shapefile)",
+        "en": "vector (shapefile)"
+      },
+      {
+        "ru": "вектор (GeoJSON)",
+        "en": "Vector (Geojson)"
+      }
+    ],
+    "category": {
+      "ru": "OpenStreetMap и производные",
+      "en": "Openstreetmap and derivatives"
+    }
+  },
+  {
+    "name": "OpenMapTiles",
+    "url": "https://openmaptiles.org/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Проект векторных тайлов на основе OSM. Предлагает стили и возможность развернуть локальный сервер.",
+      "en": "The project of vector tiles based on OSM. Offers styles and the ability to expand the local server."
+    },
+    "types": [
+      {
+        "ru": "вектор (MVT)",
+        "en": "Vector (MVT)"
+      }
+    ],
+    "category": {
+      "ru": "OpenStreetMap и производные",
+      "en": "Openstreetmap and derivatives"
+    }
+  },
+  {
+    "name": "OpenStreetMap",
+    "url": "https://www.openstreetmap.org",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Свободная мировая карта, создаваемая сообществом. Содержит геоданные дорог, зданий, гидрографии и пр. в виде узлов, линий и полигонов.",
+      "en": "Free world map created by the community. Contains geodatic roads, buildings, hydrographs, etc. In the form of nodes, lines and landfills."
+    },
+    "types": [
+      {
+        "ru": "вектор (точки)",
+        "en": "Vector (points)"
+      },
+      {
+        "ru": "вектор (линии)",
+        "en": "Vector (lines)"
+      },
+      {
+        "ru": "вектор (полигоны)",
+        "en": "Vector (polygons)"
+      }
+    ],
+    "category": {
+      "ru": "OpenStreetMap и производные",
+      "en": "Openstreetmap and derivatives"
+    }
+  },
+  {
+    "name": "Overpass Turbo",
+    "url": "https://overpass-turbo.eu/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Веб-инструмент для выборки и анализа данных OSM с экспортом в GeoJSON, XML, CSV и др.",
+      "en": "Web tool for sample and analysis of OSM data with export in Geojson, XML, CSV, etc."
+    },
+    "types": [
+      {
+        "ru": "вектор (OSM-объекты)",
+        "en": "Vector (OSM objects)"
+      }
+    ],
+    "category": {
+      "ru": "OpenStreetMap и производные",
+      "en": "Openstreetmap and derivatives"
+    }
+  },
+  {
+    "name": "GADM",
+    "url": "https://gadm.org/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Административные границы всех уровней для всех стран.",
+      "en": "Administrative boundaries of all levels for all countries."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      }
+    ],
+    "category": {
+      "ru": "Административные границы",
+      "en": "Administrative borders"
+    }
+  },
+  {
+    "name": "geoBoundaries",
+    "url": "https://www.geoboundaries.org/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Открытая база политических границ со свободной лицензией CC BY 4.0.",
+      "en": "Open base of political boundaries with a free license CC by 4.0."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      }
+    ],
+    "category": {
+      "ru": "Административные границы",
+      "en": "Administrative borders"
+    }
+  },
+  {
+    "name": "Natural Earth",
+    "url": "https://www.naturalearthdata.com/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Векторные и растровые данные мирового масштаба: границы, гидрография, населённые места.",
+      "en": "Vector and raster data of a global scale: boundaries, hydrography, settlement."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Административные границы",
+      "en": "Administrative borders"
+    }
+  },
+  {
+    "name": "OSM Admin Boundaries",
+    "url": "https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Административные границы из OSM через Overpass API.",
+      "en": "Administrative borders from OSM via Overpass API."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      }
+    ],
+    "category": {
+      "ru": "Административные границы",
+      "en": "Administrative borders"
+    }
+  },
+  {
+    "name": "World Administrative Boundaries (OpenDataSoft)",
+    "url": "https://public.opendatasoft.com/explore/dataset/world-administrative-boundaries/export/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Границы стран и материков в виде векторного набора данных.",
+      "en": "The boundaries of countries and continents in the form of a vector set of data."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      }
+    ],
+    "category": {
+      "ru": "Административные границы",
+      "en": "Administrative borders"
+    }
+  },
+  {
+    "name": "GBIF",
+    "url": "https://www.gbif.org/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Точечные наблюдения за биологическими видами.",
+      "en": "Point observations of biological species."
+    },
+    "types": [
+      {
+        "ru": "вектор (точки)",
+        "en": "Vector (points)"
+      }
+    ],
+    "category": {
+      "ru": "Биогеографические и природоохранные данные",
+      "en": "Biogeographic and environmental data"
+    }
+  },
+  {
+    "name": "GLWD",
+    "url": "https://www.worldwildlife.org/pages/global-lakes-and-wetlands-database",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Информация об озёрах, реках и болотах (3 уровня детализации).",
+      "en": "Information about lakes, rivers and swamps (3 levels of detail)."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Биогеографические и природоохранные данные",
+      "en": "Biogeographic and environmental data"
+    }
+  },
+  {
+    "name": "HydroSHEDS",
+    "url": "https://www.hydrosheds.org/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Глобальная гидрографическая база: сети рек, водосборы, озёра.",
+      "en": "Global hydrographic base: rivers networks, seats, lakes."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      },
+      {
+        "ru": "вектор",
+        "en": "vector"
+      }
+    ],
+    "category": {
+      "ru": "Биогеографические и природоохранные данные",
+      "en": "Biogeographic and environmental data"
+    }
+  },
+  {
+    "name": "WDPA (Protected Planet)",
+    "url": "https://www.protectedplanet.net/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "База охраняемых территорий (нацпарки, заповедники) ЮНЕП/ВКГС.",
+      "en": "The base of protected territories (national parks, reserves) UNEP/VKGS."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      }
+    ],
+    "category": {
+      "ru": "Биогеографические и природоохранные данные",
+      "en": "Biogeographic and environmental data"
+    }
+  },
+  {
+    "name": "WWF Ecoregions",
+    "url": "https://www.worldwildlife.org/publications/terrestrial-ecoregions-of-the-world",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Классификация экорегионов мира (867 экорегионов).",
+      "en": "Classification of eco -regions of the world (867 eco -regions)."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      }
+    ],
+    "category": {
+      "ru": "Биогеографические и природоохранные данные",
+      "en": "Biogeographic and environmental data"
+    }
+  },
+  {
+    "name": "MapTiler Cloud",
+    "url": "https://www.maptiler.com/maps/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Готовые растровые и векторные карты с бесплатным тарифом.",
+      "en": "Ready -made raster and vector cards with a free tariff."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      },
+      {
+        "ru": "вектор",
+        "en": "vector"
+      }
+    ],
+    "category": {
+      "ru": "Векторные тайлы и подложки",
+      "en": "Vector tiles and substrates"
+    }
+  },
+  {
+    "name": "Stamen Maps",
+    "url": "https://maps.stamen.com/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Бесплатные растровые подложки в уникальных стилях (Watercolor, Toner).",
+      "en": "Free raster substrates in unique styles (WaterColor, Toner)."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Векторные тайлы и подложки",
+      "en": "Vector tiles and substrates"
+    }
+  },
+  {
+    "name": "Tile.openstreetmap.org",
+    "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Официальные растровые тайлы OSM (Mapnik) для визуализации.",
+      "en": "Official Rasteral Tiles OSM (Mapnik) for visualization."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Векторные тайлы и подложки",
+      "en": "Vector tiles and substrates"
+    }
+  },
+  {
+    "name": "GeoNames",
+    "url": "https://www.geonames.org/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "База топонимов мира с API для получения координат.",
+      "en": "The base of the world with the API to obtain coordinates."
+    },
+    "types": [
+      {
+        "ru": "табличные ↔ координаты",
+        "en": "Table ↔ coordinates"
+      }
+    ],
+    "category": {
+      "ru": "Геокодирование",
+      "en": "Geocoding"
+    }
+  },
+  {
+    "name": "Google Maps Geocoding",
+    "url": "https://developers.google.com/maps/documentation/geocoding",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "API для геокодирования и обратного геокодирования от Google.",
+      "en": "API for geocoding and reverse geocoding from Google."
+    },
+    "types": [
+      {
+        "ru": "табличные ↔ координаты",
+        "en": "Table ↔ coordinates"
+      }
+    ],
+    "category": {
+      "ru": "Геокодирование",
+      "en": "Geocoding"
+    }
+  },
+  {
+    "name": "Nominatim",
+    "url": "https://nominatim.openstreetmap.org/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Геокодер OSM для преобразования адресов в координаты и обратно.",
+      "en": "Geocoder OSM for converting addresses into coordinates and vice versa."
+    },
+    "types": [
+      {
+        "ru": "табличные ↔ координаты",
+        "en": "Table ↔ coordinates"
+      }
+    ],
+    "category": {
+      "ru": "Геокодирование",
+      "en": "Geocoding"
+    }
+  },
+  {
+    "name": "OpenCage Geocoder",
+    "url": "https://opencagedata.com/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Сервис геокодирования на основе OSM, GNIS, GeoNames и др.",
+      "en": "OSM, GNIS, Geonames, etc. Geocoding service."
+    },
+    "types": [
+      {
+        "ru": "табличные ↔ координаты",
+        "en": "Table ↔ coordinates"
+      }
+    ],
+    "category": {
+      "ru": "Геокодирование",
+      "en": "Geocoding"
+    }
+  },
+  {
+    "name": "Yandex Geocoder",
+    "url": "https://yandex.ru/dev/maps/geocoder/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Российский сервис геокодирования и обратного геокодирования.",
+      "en": "Russian geocoding and reverse geocoding service."
+    },
+    "types": [
+      {
+        "ru": "табличные ↔ координаты",
+        "en": "Table ↔ coordinates"
+      }
+    ],
+    "category": {
+      "ru": "Геокодирование",
+      "en": "Geocoding"
+    }
+  },
+  {
+    "name": "USGS World Geological Datasets",
+    "url": "https://certmapper.cr.usgs.gov/data/apps/world-maps/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Геологические датасеты на весь мир через ScienceBase (data on ScienceBase).",
+      "en": "Geological datasets for the whole world through Sciencebase (Data on Sciencebase)."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Геологические данные",
+      "en": "Geological data"
+    }
+  },
+  {
+    "name": "ArcGIS Hub",
+    "url": "https://hub.arcgis.com/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Платформа ESRI для публикации открытых данных регионов и муниципалитетов.",
+      "en": "ESRI platform for publishing open data of regions and municipalities."
+    },
+    "types": [
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      },
+      {
+        "ru": "GIS-слои",
+        "en": "GIS-layers"
+      }
+    ],
+    "category": {
+      "ru": "Глобальные агрегаторы и поисковые платформы",
+      "en": "Global aggregators and search platforms"
+    }
+  },
+  {
+    "name": "DataHub",
+    "url": "https://datahub.io/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Глобальный каталог открытых данных (CKAN).",
+      "en": "Global Open Data Catalog (CKAN)."
+    },
+    "types": [
+      {
+        "ru": "разнообразные",
+        "en": "diverse"
+      }
+    ],
+    "category": {
+      "ru": "Глобальные агрегаторы и поисковые платформы",
+      "en": "Global aggregators and search platforms"
+    }
+  },
+  {
+    "name": "Europe Data Portal",
+    "url": "https://data.europa.eu/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "ЕС",
+      "en": "EU"
+    },
+    "description": {
+      "ru": "Единый портал открытых данных ЕС, включая пространственные наборы.",
+      "en": "A single portal of the EU open data, including spatial sets."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растр",
+        "en": "raster"
+      },
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Глобальные агрегаторы и поисковые платформы",
+      "en": "Global aggregators and search platforms"
+    }
+  },
+  {
+    "name": "GEE Community Catalog",
+    "url": "https://gee-community-catalog.org/projects/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Каталог датасетов для Google Earth Engine по самым разным тематикам (STAC-список, метаданные).",
+      "en": "Dataset catalog for Google Earth Engine on a variety of topics (STAC list, metadata)."
+    },
+    "types": [
+      {
+        "ru": "разнообразные",
+        "en": "diverse"
+      }
+    ],
+    "category": {
+      "ru": "Глобальные агрегаторы и поисковые платформы",
+      "en": "Global aggregators and search platforms"
+    }
+  },
+  {
+    "name": "GeoPlatform.gov",
+    "url": "https://www.geoplatform.gov/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "США",
+      "en": "USA"
+    },
+    "description": {
+      "ru": "Единая платформа федеральных геоданных США с поиском WMS/WFS/WCS и др.",
+      "en": "The unified platform of the federal geodatic USA with the search for WMS/WFS/WCS, etc."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растровые",
+        "en": "raster"
+      },
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Глобальные агрегаторы и поисковые платформы",
+      "en": "Global aggregators and search platforms"
+    }
+  },
+  {
+    "name": "GeoQuery (AidData)",
+    "url": "https://geo.aiddata.org",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Платформа для выбора пространственных датасетов по стране, теме и датам; ссылка с данными приходит на почту.",
+      "en": "A platform for choosing spatial datasets in the country, topic and dates; The data link comes to the mail."
+    },
+    "types": [
+      {
+        "ru": "разнообразные",
+        "en": "diverse"
+      }
+    ],
+    "category": {
+      "ru": "Глобальные агрегаторы и поисковые платформы",
+      "en": "Global aggregators and search platforms"
+    }
+  },
+  {
+    "name": "GEOSS Portal",
+    "url": "https://www.geoportal.org/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Портал порталов GEO для поиска Earth Observation наборов.",
+      "en": "GEO portal to search for Earth Observation sets."
+    },
+    "types": [
+      {
+        "ru": "разнообразные",
+        "en": "diverse"
+      }
+    ],
+    "category": {
+      "ru": "Глобальные агрегаторы и поисковые платформы",
+      "en": "Global aggregators and search platforms"
+    }
+  },
+  {
+    "name": "Google Dataset Search",
+    "url": "https://datasetsearch.research.google.com/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Поисковик по наборам данных, включая геопространственные.",
+      "en": "Search engine for data sets, including geoprophic."
+    },
+    "types": [
+      {
+        "ru": "разнообразные",
+        "en": "diverse"
+      }
+    ],
+    "category": {
+      "ru": "Глобальные агрегаторы и поисковые платформы",
+      "en": "Global aggregators and search platforms"
+    }
+  },
+  {
+    "name": "Kaggle Datasets",
+    "url": "https://www.kaggle.com/datasets",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Платформа с большим набором разнообразных открытых датасетов, включая геопространственные.",
+      "en": "A platform with a large set of a variety of open datasets, including geospatial."
+    },
+    "types": [
+      {
+        "ru": "разнообразные",
+        "en": "diverse"
+      }
+    ],
+    "category": {
+      "ru": "Глобальные агрегаторы и поисковые платформы",
+      "en": "Global aggregators and search platforms"
+    }
+  },
+  {
+    "name": "OSM Transit & GTFS",
+    "url": "https://wiki.openstreetmap.org/wiki/Public_transport",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "OSM как источник данных о транспорте: остановки, маршруты; GTFS как формат расписаний.",
+      "en": "OSM as a source of transport data: stops, routes; GTFS as a schedule format."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Глобальные агрегаторы и поисковые платформы",
+      "en": "Global aggregators and search platforms"
+    }
+  },
+  {
+    "name": "ScienceBase",
+    "url": "https://www.sciencebase.gov/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Портал USGS для публикации научных геоданных через ScienceBase.",
+      "en": "USGS portal for publication of scientific geodata through Sciencebase."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растр",
+        "en": "raster"
+      },
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Глобальные агрегаторы и поисковые платформы",
+      "en": "Global aggregators and search platforms"
+    }
+  },
+  {
+    "name": "Copernicus Land Monitoring Service",
+    "url": "https://land.copernicus.eu/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "Европа",
+      "en": "Europe"
+    },
+    "description": {
+      "ru": "Растровые слои землепокрова, урбанизации, пожаров, миграций животных.",
+      "en": "The raster layers of the Earth -Pokrov, urbanization, fires, animal migrations."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      },
+      {
+        "ru": "вектор",
+        "en": "vector"
+      }
+    ],
+    "category": {
+      "ru": "Глобальные почвенные и земельные ресурсы",
+      "en": "Global soil and land resources"
+    }
+  },
+  {
+    "name": "SoilGrids (ISRIC)",
+    "url": "https://soilgrids.org/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Растровая модель свойств почв (органическое вещество, pH, гранулометрия) с разрешением 250м.",
+      "en": "The reservoir model of soil properties (organic matter, pH, granulometry) with a resolution of 250m."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Глобальные почвенные и земельные ресурсы",
+      "en": "Global soil and land resources"
+    }
+  },
+  {
+    "name": "Global Human Settlement Layer (GHSL)",
+    "url": "https://ghsl.jrc.ec.europa.eu/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Растровые и векторные данные по урбанизации и заселенным территориям.",
+      "en": "Rastric and vector data on urbanization and populated areas."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      },
+      {
+        "ru": "вектор",
+        "en": "vector"
+      }
+    ],
+    "category": {
+      "ru": "Демографические и статистические данные",
+      "en": "Demographic and statistical data"
+    }
+  },
+  {
+    "name": "GPW (Gridded Population of the World)",
+    "url": "https://sedac.ciesin.columbia.edu/data/collection/gpw-v4",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Растровый слой плотности населения на сетке ~1 км.",
+      "en": "The raster layer of population density on the grid is 1 km."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Демографические и статистические данные",
+      "en": "Demographic and statistical data"
+    }
+  },
+  {
+    "name": "HDX (Humanitarian Data Exchange)",
+    "url": "https://data.humdata.org/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Платформа ООН с демографическими и гуманитарными наборами.",
+      "en": "UN platform with demographic and humanitarian sets."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Демографические и статистические данные",
+      "en": "Demographic and statistical data"
+    }
+  },
+  {
+    "name": "Kontur Population Dataset",
+    "url": "https://kontur.io/population",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "description": {
+      "ru": "Набор данных по населению, созданный компанией Kontur.",
+      "en": "A set of population data created by Kontur."
+    },
+    "types": [
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      },
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Демографические и статистические данные",
+      "en": "Demographic and statistical data"
+    }
+  },
+  {
+    "name": "World Bank Open Data",
+    "url": "https://data.worldbank.org/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Глобальные индикаторы развития: ВНП, население, здравоохранение.",
+      "en": "Global development indicators: GNP, population, healthcare."
+    },
+    "types": [
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Демографические и статистические данные",
+      "en": "Demographic and statistical data"
+    }
+  },
+  {
+    "name": "WorldPop",
+    "url": "https://www.worldpop.org/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Демографические оценки и прогнозы по странам и регионам.",
+      "en": "Demographic assessments and forecasts for countries and regions."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Демографические и статистические данные",
+      "en": "Demographic and statistical data"
+    }
+  },
+  {
+    "name": "Росстат",
+    "url": "https://rosstat.gov.ru/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "description": {
+      "ru": "Официальные статистические данные РФ: демография, экономика, соцпоказатели.",
+      "en": "Official statistics of the Russian Federation: demography, economics, social indicators."
+    },
+    "types": [
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Демографические и статистические данные",
+      "en": "Demographic and statistical data"
+    }
+  },
+  {
+    "name": "David Rumsey Historical Map Collection",
+    "url": "https://www.davidrumsey.com/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Коллекция из 150 000+ отсканированных исторических карт.",
+      "en": "A collection of 150 000+ scanned historical cards."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Исторические карты и фото",
+      "en": "Historical maps and photos"
+    }
+  },
+  {
+    "name": "OldMapsOnline",
+    "url": "https://www.oldmapsonline.org/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Поисковый сервис по архивам исторических карт.",
+      "en": "Search service for archives of historical maps."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Исторические карты и фото",
+      "en": "Historical maps and photos"
+    }
+  },
+  {
+    "name": "Pastvu.com",
+    "url": "https://pastvu.com/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "преимущественно РФ",
+      "en": "Mostly the Russian Federation"
+    },
+    "description": {
+      "ru": "Карта с привязанными старыми фотографиями городов.",
+      "en": "A map with attached old photos of cities."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Исторические карты и фото",
+      "en": "Historical maps and photos"
+    }
+  },
+  {
+    "name": "Retromap.ru",
+    "url": "https://retromap.ru/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "Россия, Европа",
+      "en": "Russia, Europe"
+    },
+    "description": {
+      "ru": "Просмотр и сравнение исторических карт, геопривязанных к современности.",
+      "en": "View and comparison of historical maps gearsed to the present."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Исторические карты и фото",
+      "en": "Historical maps and photos"
+    }
+  },
+  {
+    "name": "LPIS (Land Parcel Identification System)",
+    "url": "https://land.copernicus.eu/pan-european/lpis",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "Европа",
+      "en": "Europe"
+    },
+    "description": {
+      "ru": "Данные о сельскохозяйственных участках для ЕС.",
+      "en": "Data on agricultural areas for the EU."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      }
+    ],
+    "category": {
+      "ru": "Кадастровые и земельные регистры",
+      "en": "Cadastral and land registers"
+    }
+  },
+  {
+    "name": "Росреестр WFS",
+    "url": "https://pkk5.rosreestr.ru/Products.aspx",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "description": {
+      "ru": "WFS-слои земельных участков, границ районов и ограничений.",
+      "en": "WFS-layers of land plots, borders of areas and restrictions."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      }
+    ],
+    "category": {
+      "ru": "Кадастровые и земельные регистры",
+      "en": "Cadastral and land registers"
+    }
+  },
+  {
+    "name": "AWS Open Data Registry",
+    "url": "https://registry.opendata.aws/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Реестр открытых наборов данных AWS: Sentinel-2, Landsat, MODIS, OSM Parquet и др.",
+      "en": "The AWS: Sentinel-2, Landsat, Modis, OSM Parquet and others."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      },
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      },
+      {
+        "ru": "STAC",
+        "en": "Stac"
+      }
+    ],
+    "category": {
+      "ru": "Каталоги STAC и облачные платформы",
+      "en": "Stac catalogs and cloud platforms"
+    }
+  },
+  {
+    "name": "Microsoft Planetary Computer",
+    "url": "https://planetarycomputer.microsoft.com/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Каталог STAC-совместимых датасетов: спутниковые снимки, рельеф, биоразнообразие, климат.",
+      "en": "The catalog of Stac-compatible dataset: satellite pictures, relief, biodiversity, climate."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      },
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "мультимедиа",
+        "en": "multimedia"
+      }
+    ],
+    "category": {
+      "ru": "Каталоги STAC и облачные платформы",
+      "en": "Stac catalogs and cloud platforms"
+    }
+  },
+  {
+    "name": "EMODnet",
+    "url": "https://www.emodnet.eu/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "Европа",
+      "en": "Europe"
+    },
+    "description": {
+      "ru": "Гидрографические, химические, биоразнообразные и физические данные для европейских вод.",
+      "en": "Hydrographic, chemical, biodiversity and physical data for European waters."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растр",
+        "en": "raster"
+      },
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Морские и гидрографические данные",
+      "en": "Sea and hydrographic data"
+    }
+  },
+  {
+    "name": "GEBCO",
+    "url": "https://www.gebco.net/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Глобальная модель глубин дна (grid) с доступом к данным Bathymetry.",
+      "en": "Global model of the depths of the bottom (Grid) with access to Bathymetry data."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Морские и гидрографические данные",
+      "en": "Sea and hydrographic data"
+    }
+  },
+  {
+    "name": "Mapillary",
+    "url": "https://www.mapillary.com/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Фотопокрытие улиц с геопривязкой для проверки и валидации OSM.",
+      "en": "Photo cover of streets with a geo -prison for checking and validation of OSM."
+    },
+    "types": [
+      {
+        "ru": "мультимедиа",
+        "en": "multimedia"
+      }
+    ],
+    "category": {
+      "ru": "Открытые инфраструктурные каталоги и QA",
+      "en": "Open infrastructure catalogs and QA"
+    }
+  },
+  {
+    "name": "OpenStreetCam",
+    "url": "https://openstreetcam.org/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Краудсорсинговая платформа уличных фотографий с геопривязкой.",
+      "en": "Craudsoring platform of street photographs with geopreting."
+    },
+    "types": [
+      {
+        "ru": "мультимедиа",
+        "en": "multimedia"
+      }
+    ],
+    "category": {
+      "ru": "Открытые инфраструктурные каталоги и QA",
+      "en": "Open infrastructure catalogs and QA"
+    }
+  },
+  {
+    "name": "OSM QA Tiles",
+    "url": "https://osm-qa.geops.io/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Инструмент для поиска проблемных мест в OpenStreetMap.",
+      "en": "A tool for finding problem areas in OpenStreetmap."
+    },
+    "types": [
+      {
+        "ru": "аналитика",
+        "en": "analytics"
+      }
+    ],
+    "category": {
+      "ru": "Открытые инфраструктурные каталоги и QA",
+      "en": "Open infrastructure catalogs and QA"
+    }
+  },
+  {
+    "name": "OpenWeatherMap",
+    "url": "https://openweathermap.org/api",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "API бесплатных прогнозов погоды, текущих наблюдений и погодных карт.",
+      "en": "API of free weather forecasts, current observations and weather maps."
+    },
+    "types": [
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      },
+      {
+        "ru": "растровые",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Открытые прогнозы погоды и климат-модели",
+      "en": "Open weather forecasts and climate models"
+    }
+  },
+  {
+    "name": "TerraClimate",
+    "url": "https://www.climatologylab.org/terraclimate.html",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Растровые климатические показатели (осадки, температура) с временным рядом за 1958–2020 гг.",
+      "en": "RASTRAL CLIMATIC indicators (precipitation, temperature) with a temporary series for 1958–2020."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Открытые прогнозы погоды и климат-модели",
+      "en": "Open weather forecasts and climate models"
+    }
+  },
+  {
+    "name": "Africa GeoPortal",
+    "url": "https://africageoportal.com",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "Африка",
+      "en": "Africa"
+    },
+    "description": {
+      "ru": "Наборы данных по административным границам, почвенно-растительному покрову и инфраструктуре в Африке.",
+      "en": "Data sets on administrative borders, soil-growing cover and infrastructure in Africa."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Отраслевые и тематические порталы",
+      "en": "Industry and thematic portals"
+    }
+  },
+  {
+    "name": "DIVA-GIS",
+    "url": "https://www.diva-gis.org/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Наборы данных по климату, населению и административным границам на уровне страны.",
+      "en": "Climate data sets, population and administrative borders at the country's level."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Отраслевые и тематические порталы",
+      "en": "Industry and thematic portals"
+    }
+  },
+  {
+    "name": "FAO GeoNetwork",
+    "url": "https://www.fao.org/geonetwork",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Каталог пространственных данных FAO по сельскому хозяйству, рыболовству, экологии.",
+      "en": "The catalog of spatial FAO data on agriculture, fishing, ecology."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Отраслевые и тематические порталы",
+      "en": "Industry and thematic portals"
+    }
+  },
+  {
+    "name": "Global Forest Watch API",
+    "url": "https://data.globalforestwatch.org/datasets",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "API по лесному покрову, обезлесению и изменениям землепользования.",
+      "en": "API for the forest cover, dexterity and changes in land use."
+    },
+    "types": [
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      },
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Отраслевые и тематические порталы",
+      "en": "Industry and thematic portals"
+    }
+  },
+  {
+    "name": "HOT Tasking Manager",
+    "url": "https://tasks.hotosm.org/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Инструмент для краудсорсингового картирования в кризисных регионах.",
+      "en": "Tool for crowdsing mapping in crisis regions."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "мультимедиа",
+        "en": "multimedia"
+      }
+    ],
+    "category": {
+      "ru": "Отраслевые и тематические порталы",
+      "en": "Industry and thematic portals"
+    }
+  },
+  {
+    "name": "Koordinates",
+    "url": "https://koordinates.com/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Платформа с разнообразными геоданными (экология, инфраструктура, социальные данные).",
+      "en": "Platform with a variety of geodatic (ecology, infrastructure, social data)."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растр",
+        "en": "raster"
+      },
+      {
+        "ru": "KML",
+        "en": "KML"
+      }
+    ],
+    "category": {
+      "ru": "Отраслевые и тематические порталы",
+      "en": "Industry and thematic portals"
+    }
+  },
+  {
+    "name": "NASA SEDAC",
+    "url": "https://sedac.ciesin.columbia.edu/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Центр NASA по социально-экономическим и экологическим данным (население, инфраструктура).",
+      "en": "NASA Center for Socio-Economic and Environmental Data (population, infrastructure)."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растр",
+        "en": "raster"
+      },
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Отраслевые и тематические порталы",
+      "en": "Industry and thematic portals"
+    }
+  },
+  {
+    "name": "OpenAQ Local Projects",
+    "url": "https://openaq.org/#/projects",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Локальные сети мониторинга качества воздуха (OpenSenseMap и др.).",
+      "en": "Local air monitoring networks (Opensensemap, etc.)."
+    },
+    "types": [
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Отраслевые и тематические порталы",
+      "en": "Industry and thematic portals"
+    }
+  },
+  {
+    "name": "UNEP Environmental Data Explorer",
+    "url": "https://uneplive.unep.org/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Панель экологических индикаторов и пространственных наборов UNEP.",
+      "en": "Panel of environmental indicators and spatial UNEP sets."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Отраслевые и тематические порталы",
+      "en": "Industry and thematic portals"
+    }
+  },
+  {
+    "name": "WRI Open Data Portal",
+    "url": "https://www.wri.org/data",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Наборы данных WRI по окружающей среде и природным ресурсам.",
+      "en": "WRI data sets in the environment and natural resources."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растр",
+        "en": "raster"
+      },
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Отраслевые и тематические порталы",
+      "en": "Industry and thematic portals"
+    }
+  },
+  {
+    "name": "ArcGIS Online Search",
+    "url": "https://www.arcgis.com/home/search.html",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Поисковая система ArcGIS для обнаружения публичных карт, слоев и приложений ESRI.",
+      "en": "ARCGIS search engine for detecting public cards, layers and ESRI applications."
+    },
+    "types": [
+      {
+        "ru": "разнообразные",
+        "en": "diverse"
+      }
+    ],
+    "category": {
+      "ru": "Порталы открытых геоданных",
+      "en": "Portals of open geodata"
+    }
+  },
+  {
+    "name": "Data.gov (USA)",
+    "url": "https://catalog.data.gov/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "США",
+      "en": "USA"
+    },
+    "description": {
+      "ru": "Официальный портал открытых данных США с пространственными наборами.",
+      "en": "The official portal of US open data with spatial sets."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растровые",
+        "en": "raster"
+      },
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Порталы открытых геоданных",
+      "en": "Portals of open geodata"
+    }
+  },
+  {
+    "name": "Free GIS Data",
+    "url": "https://www.freegisdata.rtwilson.com/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Каталог ссылок на свободные геоданные по всему миру.",
+      "en": "Catalog of references to free geodata around the world."
+    },
+    "types": [
+      {
+        "ru": "разнообразные",
+        "en": "diverse"
+      }
+    ],
+    "category": {
+      "ru": "Порталы открытых геоданных",
+      "en": "Portals of open geodata"
+    }
+  },
+  {
+    "name": "Geoportal Берлина",
+    "url": "https://www.businesslocationcenter.de/wab/maps/main/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "Берлин",
+      "en": "Berlin"
+    },
+    "description": {
+      "ru": "Портал открытых данных Берлина: 3D-здания, кадастр, транспорт.",
+      "en": "Berlin open data portal: 3D, cadastre, transport."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растровые",
+        "en": "raster"
+      },
+      {
+        "ru": "3D",
+        "en": "Zd"
+      }
+    ],
+    "category": {
+      "ru": "Порталы открытых геоданных",
+      "en": "Portals of open geodata"
+    }
+  },
+  {
+    "name": "NYC Open Data",
+    "url": "https://maps.nyc.gov/doitt/nycitymap/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "Нью-Йорк",
+      "en": "New York"
+    },
+    "description": {
+      "ru": "Геопортал Нью-Йорка с пространственными наборами и API Socrata.",
+      "en": "Geoportal New York with spatial sets and API Socrata."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "растровые",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Порталы открытых геоданных",
+      "en": "Portals of open geodata"
+    }
+  },
+  {
+    "name": "OpenData Paris",
+    "url": "https://opendata.paris.fr",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "Париж, Франция",
+      "en": "Paris, France"
+    },
+    "description": {
+      "ru": "Портал открытых данных города Парижа по экологии, транспорту, архивам и пр.",
+      "en": "Portal of open data of the city of Paris on ecology, transport, archives, etc."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Порталы открытых геоданных",
+      "en": "Portals of open geodata"
+    }
+  },
+  {
+    "name": "Открытые данные Минкультуры РФ",
+    "url": "https://opendata.mkrf.ru/opendata/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "description": {
+      "ru": "Геоданные культурных объектов России.",
+      "en": "Geodatic cultural objects of Russia."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Порталы открытых геоданных",
+      "en": "Portals of open geodata"
+    }
+  },
+  {
+    "name": "Портал открытых данных Москвы",
+    "url": "https://data.mos.ru/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "Москва",
+      "en": "Moscow"
+    },
+    "description": {
+      "ru": "Городской геопортал Москвы с API для доступа к GIS-слоям.",
+      "en": "City geoportal of Moscow with API for access to GIS layers."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Порталы открытых геоданных",
+      "en": "Portals of open geodata"
+    }
+  },
+  {
+    "name": "Портал открытых данных РФ",
+    "url": "https://data.gov.ru/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "description": {
+      "ru": "Единый портал РФ для открытых данных ведомств, включая геоданные.",
+      "en": "A single portal of the Russian Federation for open data from departments, including geodan."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Порталы открытых геоданных",
+      "en": "Portals of open geodata"
+    }
+  },
+  {
+    "name": "Сборник геопорталов и данных",
+    "url": "https://gisgeo.org/data.html",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Коллекция ссылок на национальные и региональные геопорталы.",
+      "en": "A collection of links to national and regional geoportals."
+    },
+    "types": [
+      {
+        "ru": "разнообразные",
+        "en": "diverse"
+      }
+    ],
+    "category": {
+      "ru": "Порталы открытых геоданных",
+      "en": "Portals of open geodata"
+    }
+  },
+  {
+    "name": "FAO Soil Maps and Databases",
+    "url": "https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/other-global-soil-maps-and-databases/en/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Глобальные карты почв и почвенные базы данных FAO.",
+      "en": "Global soil maps and soil databases FAO."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      },
+      {
+        "ru": "вектор",
+        "en": "vector"
+      }
+    ],
+    "category": {
+      "ru": "Почвы и растительность",
+      "en": "Soils and vegetation"
+    }
+  },
+  {
+    "name": "Hansen Global Forest Change 2023",
+    "url": "https://storage.googleapis.com/earthenginepartners-hansen/GFC-2023-v1.11/download.html",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Данные о покрытии растительностью и динамике изменений лесного покрова (GFC-2023).",
+      "en": "Data on vegetation and dynamics of forest cover changes (GFC-2023)."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Почвы и растительность",
+      "en": "Soils and vegetation"
+    }
+  },
+  {
+    "name": "Copernicus Open Access Hub",
+    "url": "https://scihub.copernicus.eu/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Данные Sentinel SAR, оптические и климатические продукты ESA.",
+      "en": "Sentinel SAR data, ESA optical and climatic products."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Спутниковые снимки и ДЗЗ",
+      "en": "Satellite pictures and DZZ"
+    }
+  },
+  {
+    "name": "NASA EarthData / Worldview",
+    "url": "https://earthdata.nasa.gov/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Портал NASA с 1200+ спутниковыми слоями (MODIS, VIIRS и др.).",
+      "en": "NASA portal with 1200+ satellite layers (Modis, VIIRS, etc.)."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Спутниковые снимки и ДЗЗ",
+      "en": "Satellite pictures and DZZ"
+    }
+  },
+  {
+    "name": "NASA FIRMS Active Fire Data",
+    "url": "https://firms.modaps.eosdis.nasa.gov/active_fire/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Автоматически выделенные очаги пожаров по спутниковым данным (точечные файлы по времени и спутнику).",
+      "en": "Automatically allocated fires of fires according to satellite data (point files in time and satellite)."
+    },
+    "types": [
+      {
+        "ru": "точечные",
+        "en": "Pointed"
+      }
+    ],
+    "category": {
+      "ru": "Спутниковые снимки и ДЗЗ",
+      "en": "Satellite pictures and DZZ"
+    }
+  },
+  {
+    "name": "OpenAerialMap",
+    "url": "https://www.openaerialmap.org/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Краудсорсинговая платформа аэрофотоснимков и спутниковых снимков.",
+      "en": "Crowdsourcing platform of aerial photographs and satellite shots."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Спутниковые снимки и ДЗЗ",
+      "en": "Satellite pictures and DZZ"
+    }
+  },
+  {
+    "name": "USGS EarthExplorer",
+    "url": "https://earthexplorer.usgs.gov/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Поиск и загрузка спутниковых снимков Landsat, Sentinel, DEM и др.",
+      "en": "Search and loading of satellite shots Landsat, Sentinel, DEM, etc."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Спутниковые снимки и ДЗЗ",
+      "en": "Satellite pictures and DZZ"
+    }
+  },
+  {
+    "name": "GraphHopper",
+    "url": "https://www.graphhopper.com/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Маршрутизационный движок на базе OSM с бесплатной квотой API.",
+      "en": "OSM routing engine with free quota API."
+    },
+    "types": [
+      {
+        "ru": "вектор (дороги)",
+        "en": "Vector (roads)"
+      }
+    ],
+    "category": {
+      "ru": "Транспорт и дороги",
+      "en": "Transport and roads"
+    }
+  },
+  {
+    "name": "GTFS Feeds",
+    "url": "https://gtfs.org/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "региональные/городские",
+      "en": "Regional/city"
+    },
+    "description": {
+      "ru": "Формат расписаний общественного транспорта (CSV по спецификации GTFS).",
+      "en": "Public transport schedules format (CSV according to GTFS specification)."
+    },
+    "types": [
+      {
+        "ru": "табличные (CSV)",
+        "en": "tabular (csv)"
+      }
+    ],
+    "category": {
+      "ru": "Транспорт и дороги",
+      "en": "Transport and roads"
+    }
+  },
+  {
+    "name": "HERE Routing API",
+    "url": "https://developer.here.com/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Карты, геокодер, маршрутизация и трафик от HERE с бесплатным тарифом.",
+      "en": "Maps, geocoder, routing and traffic from Here with a free tariff."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "табличные (трафик)",
+        "en": "tabular (traffic)"
+      }
+    ],
+    "category": {
+      "ru": "Транспорт и дороги",
+      "en": "Transport and roads"
+    }
+  },
+  {
+    "name": "OSRM",
+    "url": "https://project-osrm.org/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Open Source Routing Machine для построения маршрутов на основе OSM.",
+      "en": "Open Source Routing Machine for building OSM -based routes."
+    },
+    "types": [
+      {
+        "ru": "вектор (дороги)",
+        "en": "Vector (roads)"
+      }
+    ],
+    "category": {
+      "ru": "Транспорт и дороги",
+      "en": "Transport and roads"
+    }
+  },
+  {
+    "name": "Яндекс.Маршрутизация",
+    "url": "https://yandex.ru/dev/maps/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "Россия, СНГ, мир",
+      "en": "Russia, CIS, world"
+    },
+    "description": {
+      "ru": "API «Яндекс.Карт» для маршрутов, геокодирования и трафика.",
+      "en": "API \"Yandex.Cart\" for routes, geocoding and traffic."
+    },
+    "types": [
+      {
+        "ru": "вектор",
+        "en": "vector"
+      },
+      {
+        "ru": "табличные (трафик)",
+        "en": "tabular (traffic)"
+      }
+    ],
+    "category": {
+      "ru": "Транспорт и дороги",
+      "en": "Transport and roads"
+    }
+  },
+  {
+    "name": "CHELSA Climate",
+    "url": "https://chelsa-climate.org",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Климатические растры с разрешением ~1 км для текущего и будущего климата.",
+      "en": "Climate racks with a resolution of ~ 1 km for the current and future climate."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Экологические и климатические данные",
+      "en": "Environmental and climatic data"
+    }
+  },
+  {
+    "name": "Copernicus Climate Data Store",
+    "url": "https://cds.climate.copernicus.eu/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Климатические данные моделей (ERA5 и др.), реанализы.",
+      "en": "Climatic data of models (ERA5, etc.), realizes."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      },
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Экологические и климатические данные",
+      "en": "Environmental and climatic data"
+    }
+  },
+  {
+    "name": "NASA POWER",
+    "url": "https://power.larc.nasa.gov/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Метеорологические и солнечные данные для произвольных точек.",
+      "en": "Meteorological and solar data for arbitrary points."
+    },
+    "types": [
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Экологические и климатические данные",
+      "en": "Environmental and climatic data"
+    }
+  },
+  {
+    "name": "NOAA CDO",
+    "url": "https://www.ncei.noaa.gov/cdo-web/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Исторические метеоданные по станциям (температура, осадки и др.).",
+      "en": "Historical weathering at the stations (temperature, precipitation, etc.)."
+    },
+    "types": [
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Экологические и климатические данные",
+      "en": "Environmental and climatic data"
+    }
+  },
+  {
+    "name": "OpenAQ",
+    "url": "https://openaq.org/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Данные о качестве воздуха (PM2.5, NO₂ и др.) из множества источников.",
+      "en": "Data on air quality (PM2.5, No₂, etc.) from many sources."
+    },
+    "types": [
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Экологические и климатические данные",
+      "en": "Environmental and climatic data"
+    }
+  },
+  {
+    "name": "WorldClim",
+    "url": "https://www.worldclim.org/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Глобальные климатические растры (температура, осадки и др.) в высоком разрешении.",
+      "en": "Global climatic reservations (temperature, precipitation, etc.) in high resolution."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      }
+    ],
+    "category": {
+      "ru": "Экологические и климатические данные",
+      "en": "Environmental and climatic data"
+    }
+  },
+  {
+    "name": "Global Flood Database",
+    "url": "https://floods.global/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Карта исторических наводнений и моделирование зон затопления.",
+      "en": "Map of historical floods and modeling of flooding zones."
+    },
+    "types": [
+      {
+        "ru": "растр",
+        "en": "raster"
+      },
+      {
+        "ru": "вектор",
+        "en": "vector"
+      }
+    ],
+    "category": {
+      "ru": "Экстремальные явления и риски",
+      "en": "Extreme phenomena and risks"
+    }
+  },
+  {
+    "name": "USGS Earthquake Catalog",
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "глобальное",
+      "en": "Global"
+    },
+    "description": {
+      "ru": "Точки и эпицентры землетрясений в реальном времени.",
+      "en": "Points and epicenters of earthquakes in real time."
+    },
+    "types": [
+      {
+        "ru": "точечные",
+        "en": "Pointed"
+      }
+    ],
+    "category": {
+      "ru": "Экстремальные явления и риски",
+      "en": "Extreme phenomena and risks"
+    }
+  },
+  {
+    "name": "ДомКлик Analytics",
+    "url": "https://blog.domclick.ru/analytics",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "Россия (муниципалитеты)",
+      "en": "Russia (municipalities)"
+    },
+    "description": {
+      "ru": "Аналитика по российским муниципальным рынкам недвижимости от ДомКлик.",
+      "en": "Analytics in Russian municipal real estate markets from Domklik."
+    },
+    "types": [
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      },
+      {
+        "ru": "аналитика",
+        "en": "analytics"
+      }
+    ],
+    "category": {
+      "ru": "Российские муниципальные данные",
+      "en": "Russian municipal data"
+    }
+  },
+  {
+    "name": "ВЭБ Индекс (CityLifeIndex)",
+    "url": "https://citylifeindex.ru/database?pageType=CITIES",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "Россия (города)",
+      "en": "Russia (cities)"
+    },
+    "description": {
+      "ru": "Индексы качества жизни и аналитика по городам от ВЭБ.",
+      "en": "Quality indices and analytics in cities from VEB."
+    },
+    "types": [
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Российские муниципальные данные",
+      "en": "Russian municipal data"
+    }
+  },
+  {
+    "name": "Единое Хранилище Данных Москвы",
+    "url": "https://ehd.moscow/",
+    "api": {
+      "ru": "да",
+      "en": "Yes"
+    },
+    "coverage": {
+      "ru": "Москвa",
+      "en": "Moscow"
+    },
+    "description": {
+      "ru": "Портал единого хранения открытых данных Москвы.",
+      "en": "Portal of a single storage of open data in Moscow."
+    },
+    "types": [
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      },
+      {
+        "ru": "GIS-слои",
+        "en": "GIS-layers"
+      }
+    ],
+    "category": {
+      "ru": "Российские муниципальные данные",
+      "en": "Russian municipal data"
+    }
+  },
+  {
+    "name": "Показатели жилищного строительства",
+    "url": "https://наш.дом.рф/аналитика/показатели_жилищного_строительства",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "Россия (регионы)",
+      "en": "Russia (regions)"
+    },
+    "description": {
+      "ru": "Статистика и показатели жилищного строительства по регионам РФ.",
+      "en": "Statistics and indicators of housing construction in the regions of the Russian Federation."
+    },
+    "types": [
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Российские муниципальные данные",
+      "en": "Russian municipal data"
+    }
+  },
+  {
+    "name": "EMISS Indicators (fedstat.ru)",
+    "url": "https://fedstat.ru/",
+    "api": {
+      "ru": "нет",
+      "en": "No"
+    },
+    "coverage": {
+      "ru": "Россия (крупнейшие города)",
+      "en": "Russia (the largest cities)"
+    },
+    "description": {
+      "ru": "101 индикатор по крупнейшим городам РФ в ЕМИСС.",
+      "en": "101 indicator in the largest cities of the Russian Federation in Emiss."
+    },
+    "types": [
+      {
+        "ru": "табличные",
+        "en": "tabular"
+      }
+    ],
+    "category": {
+      "ru": "Российские муниципальные данные",
+      "en": "Russian municipal data"
+    }
+  }
+]
