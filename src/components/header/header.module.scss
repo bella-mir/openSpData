@@ -5,7 +5,7 @@
   width: 100vw;
   box-sizing: border-box;
   padding: 0.5rem 2rem;
-  background-color: #fe6543;
+  background-color: #6872a6;
   color: white;
   z-index: 1000;
   margin: auto;
@@ -16,11 +16,31 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    // justify-content: space-between;
+    justify-content: space-between;
     z-index: 1;
+
+    .flexrow {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+    }
 
     .title {
       font-size: 32px;
     }
   }
+}
+
+.lngButton {
+  font-size: 14px;
+  // width: 70px;
+  // width: 50px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #6872a6;
+  color: white;
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
 }

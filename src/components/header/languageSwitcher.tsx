@@ -6,7 +6,7 @@ const LanguageSwitcher: React.FC = () => {
   const { i18n } = useTranslation();
 
   const toggleLanguage = () => {
-    const newLang = i18n.language === "en" ? "ru" : "en";
+    const newLang = i18n.language === "ru" ? "en" : "ru";
     i18n.changeLanguage(newLang);
     localStorage.setItem("selectedLanguage", newLang);
   };
@@ -14,7 +14,7 @@ const LanguageSwitcher: React.FC = () => {
   return (
     <button onClick={toggleLanguage} className={styles.lngButton}>
       <GlobalOutlined />
-      {i18n.language === "en" ? "EN" : "RU"}
+      {i18n.language === "ru" ? "RU" : "EN"}
     </button>
   );
 };
