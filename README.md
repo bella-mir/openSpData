@@ -17,7 +17,7 @@ You’re welcome to suggest more sources by clicking the **Add Data** button at 
 ### 👩‍💻 Author
 
 **Bella**
-[GitHub](https://github.com/bella) · [LinkedIn](https://linkedin.com/in/bella) · [GIS and PEACE Blog](https://t.me/+AxYgeKyZehs1NTZi)
+[GitHub](https://github.com/bella-mir) · [LinkedIn](https://www.linkedin.com/in/bella-mironova-64b01a222/) · [GIS and PEACE Blog](https://t.me/+AxYgeKyZehs1NTZi)
 ☕ [Buy me a coffee](https://www.buymeacoffee.com/bella)
 
 ---
@@ -41,5 +41,5 @@ You’re welcome to suggest more sources by clicking the **Add Data** button at 
 ### 👩‍💻 Автор
 
 **Белла**
-[GitHub](https://github.com/bella) · [LinkedIn](https://linkedin.com/in/bella) · [Блог GIS and PEACE](https://t.me/+AxYgeKyZehs1NTZi)
+[GitHub](https://github.com/bella-mir) · [LinkedIn](https://www.linkedin.com/in/bella-mironova-64b01a222/) · [Блог GIS and PEACE](https://t.me/+AxYgeKyZehs1NTZi)
 ☕ [Поддержать на Buy Me a Coffee](https://www.buymeacoffee.com/bella)

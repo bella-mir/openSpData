@@ -259,7 +259,7 @@ export const DataSources: React.FC = () => {
             <span>GIS-developer, -analyst and cartographer</span>
             <div className={styles.creatorLinks}>
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/bella-mir"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -267,7 +267,7 @@ export const DataSources: React.FC = () => {
               </a>
               {" · "}
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/in/bella-mironova-64b01a222/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
