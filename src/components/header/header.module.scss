@@ -1,12 +1,12 @@
 .header {
   top: 0;
   left: 0;
-  height: 80px;
+  height: 60px;
   width: 100vw;
   box-sizing: border-box;
   padding: 0.5rem 2rem;
-  background-color: #6872a6;
-  color: white;
+  background-color: white;
+  color: #b6c5f2;
   z-index: 1000;
   margin: auto;
 
@@ -32,15 +32,31 @@
   }
 }
 
-.lngButton {
+.addButton {
   font-size: 14px;
-  // width: 70px;
-  // width: 50px;
   box-sizing: border-box;
   border: none;
-  background-color: #6872a6;
+  background-color: #c2d991;
   color: white;
   display: flex;
   gap: 0.25rem;
   align-items: center;
+}
+
+.lngButton {
+  font-size: 14px;
+  background-color: transparent;
+  display: flex;
+  gap: 0.25rem;
+  color: #fba4d7;
+}
+
+.lngButton:hover {
+  opacity: 0.7;
+}
+
+.smallTooltip {
+  max-width: 180px;
+  white-space: normal;
+  text-align: center;
 }

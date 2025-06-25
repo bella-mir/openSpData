@@ -1,7 +1,6 @@
 import { useState } from "react";
 import styles from "./header.module.scss";
 import LanguageSwitcher from "./languageSwitcher";
-
 import { useTranslation } from "react-i18next";
 import { AddDataForm } from "../addDataForm";
 import { PlusCircleOutlined } from "@ant-design/icons";
@@ -14,11 +13,11 @@ export const Header = () => {
     <>
       <div className={styles.header}>
         <div className={styles.content}>
-          <h1 className={styles.title}>OPEN GEODATA</h1>
+          <h1 className={styles.title}></h1>
           <div className={styles.flexrow}>
             <button
               onClick={() => setProposalModalVisible(true)}
-              className={styles.lngButton}
+              className={styles.addButton}
             >
               <PlusCircleOutlined />
               {t("Add Data")}

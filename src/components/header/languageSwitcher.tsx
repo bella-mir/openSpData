@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
 import styles from "./header.module.scss";
 import { GlobalOutlined } from "@ant-design/icons";
-
+import Tooltip from "antd/es/tooltip";
 const LanguageSwitcher: React.FC = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const toggleLanguage = () => {
     const newLang = i18n.language === "ru" ? "en" : "ru";
@@ -12,10 +12,16 @@ const LanguageSwitcher: React.FC = () => {
   };
 
   return (
-    <button onClick={toggleLanguage} className={styles.lngButton}>
-      <GlobalOutlined />
-      {i18n.language === "ru" ? "RU" : "EN"}
-    </button>
+    <Tooltip
+      title={t("Switch the language")}
+      classNames={{ root: styles.smallTooltip }}
+      placement="bottomRight"
+    >
+      <button onClick={toggleLanguage} className={styles.lngButton}>
+        <GlobalOutlined />
+        {i18n.language === "ru" ? "RU" : "EN"}
+      </button>
+    </Tooltip>
   );
 };
 

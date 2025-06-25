@@ -1,54 +1,45 @@
-# React + TypeScript + Vite
+## 🌍 Open Geodata Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This portal collects links to **open geospatial data sources** and **useful APIs**
 
-Currently, two official plugins are available:
+It brings together more than 80 curated datasets, grouped by topic and sorted for easier access — from **OpenStreetMap** to **population models**, **satellite imagery**, and **Russia-specific sources**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔎 Why this portal?
 
-## Expanding the ESLint configuration
+Over the past 6 years, I’ve worked almost daily with spatial data. Many of my projects rely on open sources — which I initially collected for myself, then shared on my blog (ru) [GIS and PEACE](https://t.me/+AxYgeKyZehs1NTZi).
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+While my experience comes from working with urban data in Russia, I’ve tried to include **universal** resources. This is not a complete list, but I hope it will be helpful for other analysts, researchers, planners, and students.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+You’re welcome to suggest more sources by clicking the **Add Data** button at the top of the page.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+[OPEN GEODATA](https://bella-mir.github.io/openSpData/)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 👩‍💻 Author
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+**Bella**
+[GitHub](https://github.com/bella) · [LinkedIn](https://linkedin.com/in/bella) · [GIS and PEACE Blog](https://t.me/+AxYgeKyZehs1NTZi)
+☕ [Buy me a coffee](https://www.buymeacoffee.com/bella)
+
+---
+
+## 🌍 Портал Открытых Геоданных
+
+Этот портал собирает ссылки на **открытые источники геоданных** и **полезные API**.
+
+На странице представлено более 80 источников — от **OpenStreetMap** до **демографических моделей**, **спутниковых снимков** и **региональных данных по России**.
+
+### 🔎 Зачем этот портал?
+
+Уже 6 лет я ежедневно работаю с пространственными данными. Большая часть моей работы строится на открытых источниках — сначала я сохраняла их в личных заметках, а потом делилась в блоге [GIS and PEACE](https://t.me/+AxYgeKyZehs1NTZi).
+
+Хотя мой опыт связан с городскими данными в России, я постаралась собрать **универсальные источники**, которые могут быть полезны специалистам из разных сфер. Это не полный каталог, но я буду очень рада, если он пригодится в работе.
+
+Если вы знаете интересный источник — нажмите **Добавить** в верзней части страницы - это будет очень полезно.
+
+[OPEN GEODATA](https://bella-mir.github.io/openSpData/)
+
+### 👩‍💻 Автор
+
+**Белла**
+[GitHub](https://github.com/bella) · [LinkedIn](https://linkedin.com/in/bella) · [Блог GIS and PEACE](https://t.me/+AxYgeKyZehs1NTZi)
+☕ [Поддержать на Buy Me a Coffee](https://www.buymeacoffee.com/bella)

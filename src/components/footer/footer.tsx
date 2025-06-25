@@ -1,11 +1,14 @@
 import { MailOutlined } from "@ant-design/icons";
 import styles from "./footer.module.scss";
 import tg from "./asserts/tg.svg";
+import { useTranslation } from "react-i18next";
 
 export const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className={styles.footer}>
-      <div>© 2025 Bella Mironova</div>
+      <div>{t("CollectedByB")}, 2025</div>
       <div className={styles.info}>
         <div className={styles.email}>
           <MailOutlined />

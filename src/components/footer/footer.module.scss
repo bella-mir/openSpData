@@ -2,9 +2,10 @@
   bottom: 0;
   left: 0;
   width: 100vw;
+  overflow: hidden;
   padding: 20px 40px;
   font-size: 16px;
-  background-color: #6872a6;
+  background-color: #b6c5f2;
   box-sizing: border-box;
   z-index: 100;
   display: flex;
@@ -35,5 +36,12 @@
     .emailTitle {
       color: white;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column-reverse;
+    gap: 0.5rem;
   }
 }
