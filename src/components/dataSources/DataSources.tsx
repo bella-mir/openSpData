@@ -37,6 +37,7 @@ const SECTION_CATEGORIES: Record<string, Record<string, string[]>> = {
     Environment: ["Environmental and climatic data"],
     "Russia-Specific Data": ["Russia Official Open Data", "Other"],
     "Aggregators and Search": ["Aggregators", "Geodata Search"],
+    "National Geoportals": ["National Geoportals"],
   },
   "Useful APIs": {
     APIs: [

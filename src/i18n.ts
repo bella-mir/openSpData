@@ -73,6 +73,7 @@ const resources = {
       "Map Tiles & Basemaps": "Map Tiles & Basemaps",
       "Historical maps and photos": "Historical maps and photos",
       "OPEN GEODATA": "OPEN GEODATA",
+      "saint-petersburg": "Saint Petersburg",
       learn_more_modal: {
         intro:
           "This portal brings together links to open geodata sources and handy APIs for spatial analysis.",
@@ -155,6 +156,7 @@ const resources = {
       "Historical maps and photos": "Исторические карты и фотографии",
       // "OPEN GEODATA": "ОТКРЫТЫЕ ГЕОДАННЫЕ",
       "Learn more": "Узнать больше",
+      "saint-petersburg": "Санкт-Петербург",
       About: "О проекте",
       learn_more_modal: {
         intro:

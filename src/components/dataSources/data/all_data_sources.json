@@ -136,7 +136,7 @@
     "category": "Environmental and climatic data"
   },
   {
-    "name": {"en": "FIRMS (Fire Information Recourse Management System)"},
+    "name": {"en": "Fire Information Recourse Management System (FIRMS)"},
     "url": "https://firms.modaps.eosdis.nasa.gov/",
     "api": true,
     "coverage": "global",
@@ -931,7 +931,7 @@
       "Tabular (CSV",
       "Excel)"
     ],
-    "category": "Russia Official Open Data"
+    "category": "Other"
   },
   {
     "name": {"en": "Light Pollution Map"},
@@ -1065,5 +1065,100 @@
       "CSV и GPX)"
     ],
     "category": "Aggregators"
+  },
+  {
+    "name": { "en": "OpenLandMap" },
+    "url": "https://openlandmap.org/",
+    "api": true,
+    "coverage": "global",
+    "description": {
+      "ru": "Данные о почвах и землепользовании. Включают слои с показателями pH, содержанием органического углерода, текстурой почвы и другими характеристиками.",
+      "en": "Global soil and land data including layers on pH, organic carbon, texture, and more."
+    },
+    "types": ["Raster (GeoTIFF)", "WMS", "GeoJSON"],
+    "category": "Environmental and climatic data"
+  },
+  {
+    "name": { "en": "Equal Earth Political Wall Map" },
+    "url": "https://equal-earth.com/",
+    "api": false,
+    "coverage": "global",
+    "description": {
+      "ru": "Политическая карта мира с проекцией Equal Earth, удобной для образовательных и визуальных целей.",
+      "en": "A political wall map of the world using the Equal Earth projection, designed for educational and illustrative purposes."
+    },
+    "types": ["Raster (PDF, PNG, TIFF)"],
+    "category": "Map Tiles & Basemaps"
+  },
+  {
+    "name": { "en": "Administrative Boundaries and Climate Data App" },
+    "url": "https://ualo4y-muhammad-raza.shinyapps.io/country_boundaries/",
+    "api": false,
+    "coverage": "global",
+    "description": {
+      "ru": "Интерактивное приложение для просмотра и экспорта административных границ стран и климатических данных.",
+      "en": "Interactive web app for visualizing and exporting country administrative boundaries and climate data."
+    },
+    "types": ["Vector (Shapefile, GeoJSON)", "Tabular (CSV)"],
+    "category": "Administrative boundaries"
+  },
+  {
+    "name": { "ru": "Цифровой Петербург", "en": "Digital Saint Petersburg" },
+    "url": "https://api.petersburg.ru/mainPortal/api_services",
+    "api": true,
+    "coverage": "saint-petersburg",
+    "description": {
+      "ru": "Официальный API для доступа к городским данным Санкт-Петербурга",
+      "en": "Official API for accessing Saint Petersburg urban datasets"
+    },
+    "category": "Russia Official Open Data"
+  },
+  {
+    "name": {"ru": "ГИС ЖКХ", "en": "Housing and Utilities GIS"},
+    "url": "https://dom.gosuslugi.ru/",
+    "api": false,
+    "coverage": "russia",
+    "description": {
+      "ru": "Государственная информационная система жилищно-коммунального хозяйства. Содержит данные о жилом фонде, коммунальных услугах, организациях ЖКХ и платежах.",
+      "en": "Official Housing and Utilities GIS of Russia with data on housing stock, utility services, management companies, and payments."
+    },
+    "types": ["Tabular"],
+    "category": "Russia Official Open Data"
+  },
+  {
+    "name": {"en": "Valhalla"},
+    "url": "https://www.mapzen.com/",
+    "api": true,
+    "coverage": "global",
+    "description": {
+      "ru": "Valhalla – это open-source C++ движок маршрутизации для данных OpenStreetMap. Поддерживает мультимодальные, учитывающие время маршруты для автомобилей, пешеходов, велосипедистов и общественного транспорта. Включает пошаговую навигацию, изохроны, матрицы расстояний, map matching и данные по высотам. Разработан как модульная и эффективная платформа для кастомных приложений навигации и маршрутизации.",
+      "en": "Valhalla is an open-source C++ routing engine for OpenStreetMap data, supporting multi-modal, time-aware routing for driving, walking, biking, and transit. It features turn-by-turn navigation, isochrones, matrix computations, map matching, and elevation data. Designed for flexibility and efficiency, Valhalla is modular, cross-platform, and ideal for custom navigation and routing applications."
+    },
+    "types": ["JSON"],
+    "category": "Transport / Network analysis API"
+  },
+  {
+    "name": {"en": "Geodata Togo"},
+    "url": "https://geodata.gouv.tg/",
+    "api": false,
+    "coverage": "togo",
+    "description": {
+      "ru": "Официальный геопортал Того с открытыми данными: инфраструктура (здравоохранение, образование, водоснабжение, энергетика, дороги, телеком, госуправление), сельское хозяйство, природные ресурсы и др.",
+      "en": "Open data geoportal of the Togolese Republic covering infrastructure (health, education, water, energy, roads, telecom, public administration), agriculture, and nature data."
+    },
+    "types": ["Vector"],
+    "category": "National Geoportals"
+  },
+  {
+    "name": {"en": "Austrian Mapping Agency Open Data Portal"},
+    "url": "https://data.bev.gv.at",
+    "api": false,
+    "coverage": "austria",
+    "description": {
+      "ru": "Официальный портал открытых геоданных Австрии: топография, кадастр, административные единицы, ортофотопланы и данные высот.",
+      "en": "Austrian authoritative geospatial data used for national maps, including topography, cadaster, administrative units, orthoimagery, and elevation data."
+    },
+    "types": ["Vector", "Raster"],
+    "category": "National Geoportals"
   }
 ]

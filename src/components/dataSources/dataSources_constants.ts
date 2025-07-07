@@ -43,6 +43,7 @@ export const CATEGORIES = {
     "Open Infrastructure Catalogs & QA",
     "STAC Catalogs & Cloud Platforms",
     "Map Tiles & Basemaps",
+    "National Geoportals",
   ],
 };
 
